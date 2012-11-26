@@ -2,13 +2,13 @@ use strict;
 use warnings;
 
 package Pod::Weaver::PluginBundle::TAPPER;
-# git description: 9731f1d
+# git description: v0.001-3-g704d5fb
 
 BEGIN {
   $Pod::Weaver::PluginBundle::TAPPER::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Pod::Weaver::PluginBundle::TAPPER::VERSION = '0.001';
+  $Pod::Weaver::PluginBundle::TAPPER::VERSION = '0.002';
 }
 # ABSTRACT: Document your modules like TAPPER does
 
@@ -50,6 +50,7 @@ sub mvp_bundle_config {
 1;
 
 __END__
+
 =pod
 
 =encoding utf-8
@@ -123,4 +124,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

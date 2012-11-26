@@ -20,12 +20,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Pod::Weaver::PluginBundle::TAPPER",
   "PREREQ_PM" => {
+    "Pod::Elemental::Transformer::List" => 0,
     "Pod::Weaver::Config::Assembler" => 0,
+    "Pod::Weaver::Plugin::Encoding" => 0,
     "namespace::clean" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
